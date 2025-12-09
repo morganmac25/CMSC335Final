@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Search Results</title>
+     <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <h1>Search Results</h1>
+
+    <% if (artists.length === 0) { %>
+        <p>No artists found.</p>
+    <% } %>
+
+    <div class="artists">
+        <% artists.forEach(artist => { %>
+            <div class="artist">
+                <% if (artist.image) { %>
+                    <img src="<%= artist.image %>" width="200">
+                <% } %>
+                <h3><%= artist.name %></h3>
+
+                <form action="/favorites/add" method="POST">
+                    <input type="hidden" name="name" value="<%= artist.name %>">
+                    <input type="hidden" name="spotifyId" value="<%= artist.id %>">
+                    <input type="hidden" name="image" value="<%= artist.image %>">
+                    <button type="submit">Add to Favorites</button>
+                </form>
+            </div>
+        <% }) %>
+    </div>
+</body>
+
+</html>

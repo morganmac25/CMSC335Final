@@ -14,7 +14,7 @@ body {
 
 h1{
     font-size: 2.5rem;
-    color: seagreen;
+    color: rgb(30, 122, 70);
 }
 
 li, .artist {
@@ -24,10 +24,10 @@ li, .artist {
 
 a {
     font-weight: 100;
-    color: seagreen;
+    color: rgb(152, 241, 152);
 }
 
 a:hover{
-    color: lightgreen;
+    color: rgb(253, 240, 213);
 }
 

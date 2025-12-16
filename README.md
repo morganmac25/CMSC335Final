@@ -2,9 +2,9 @@
 
 **Submitted by:** Morgan MacLean
 
-**Group Members:** Morgan MacLean, Daniel Jamison, Kyle Bickel
+**Group Members:** Morgan MacLean, Daniel Jamison (djami1), Kyle Bickel (kbickel)
 
-**App Description:** Allow users to search Spotify's API for various artists, along with creating and displaying lists of favorites
+**App Description:** Allow users to search Spotify's API for various artists, along with creating and displaying lists of favorites.
 
 **YouTube Video Link:** (???)
 

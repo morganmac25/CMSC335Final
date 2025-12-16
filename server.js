@@ -20,8 +20,8 @@ app.use(express.static("public"));
 app.use("/spotify", require("./routes/spotify"));
 app.use("/favorites", require("./routes/favorites"));
 
-app.get('/', (req, res) => {
-    res.render("index");
+app.get("/", (req, res) => {
+    res.render("index", { error: req.query.error || null });
 });
 
 const server = app.listen(3000, () => {

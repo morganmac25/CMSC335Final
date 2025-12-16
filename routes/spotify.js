@@ -21,7 +21,9 @@ async function getToken() {
 
 router.get("/search", async (req, res) => {
     const q = req.query.q;
-    if (!q) return res.send("Invalid Artist");
+    if (!q || q.trim() === "") {
+        return res.redirect("/?error=invalid");
+    }
 
     const token = await getToken();
 

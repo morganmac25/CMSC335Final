@@ -10,6 +10,10 @@
 <body>
 	<h1>Artist Search</h1>
 
+    <% if (error === 'invalid') { %>
+        <p style="color: red;">Please enter an artist name.</p>
+    <% } %>
+
     <form action="/spotify/search" method="GET">
         <input type="text" name="q" placeholder="Search for artist">
         <button type="submit">Search</button>

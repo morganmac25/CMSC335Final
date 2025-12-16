@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+html{
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Boldonse", system-ui;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1{
+    font-size: 2.5rem
+}
+
+li, .artist {
+    font-weight: 100;
+    text-align: center;
+}
+
+a {
+    font-weight: 100;
+    color: seagreen;
+}
+
+a:hover{
+    color: lightgreen;
+}
+

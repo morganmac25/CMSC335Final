@@ -1,8 +1,8 @@
 # CMSC335Final
 
-**Submitted by:** Morgan MacLean
+**Submitted by:** Morgan MacLean (maclean1)
 
-**Group Members:** Morgan MacLean, Daniel Jamison (djami1), Kyle Bickel (kbickel)
+**Group Members:** Morgan MacLean (maclean1), Daniel Jamison (djami1), Kyle Bickel (kbickel)
 
 **App Description:** Allow users to search Spotify's API for various artists, along with creating and displaying lists of favorites.
 
